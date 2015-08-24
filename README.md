@@ -93,7 +93,8 @@ Results success::
         "symptom_content": "文字或者语音的 uri",
 	"symptom_type": "资料类型，文字或者图片，与 im 中消息类型保持一致",
 	"images": ["image_uri", "image_uri", .....],
-	}
+	},
+	"created": 创建的毫秒时间
 }
 
 Results fail:
@@ -135,6 +136,7 @@ Results success::
 	"symptom_type": "资料类型，文字或者图片，与 im 中消息类型保持一致",
 	"images": ["image_uri", "image_uri", .....],
 	}
+	"created": 创建的毫秒时间
 }
 
 
@@ -174,6 +176,7 @@ resutls:
 	        "symptom_content": "文字或者语音的 uri",
 		"symptom_type": "资料类型，文字或者图片，与 im 中消息类型保持一致",
 		"images": ["image_uri", "image_uri", .....],
+		"created": 创建的毫秒时间
 	},
 	{
 		"status": 
@@ -188,6 +191,7 @@ resutls:
 	        "symptom_content": "文字或者语音的 uri",
 		"symptom_type": "资料类型，文字或者图片，与 im 中消息类型保持一致",
 		"images": ["image_uri", "image_uri", .....],
+		"created": 创建的毫秒时间
 	}
 	]
 }
@@ -224,6 +228,7 @@ resutls:
 	        "symptom_content": "文字或者语音的 uri",
 		"symptom_type": "资料类型，文字或者图片，与 im 中消息类型保持一致",
 		"images": ["image_uri", "image_uri", .....],
+		"created": 创建的毫秒时间
 	},
 	{
 		"status": 
@@ -238,6 +243,7 @@ resutls:
 	        "symptom_content": "文字或者语音的 uri",
 		"symptom_type": "资料类型，文字或者图片，与 im 中消息类型保持一致",
 		"images": ["image_uri", "image_uri", .....],
+		"created": 创建的毫秒时间
 	}
 	]
 }
